@@ -2,14 +2,14 @@
 
 ## Installation
 
-### Install Neovim
+### Install Neovim :)
 
 Kickstart.nvim targets *only* the latest
 ['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
 If you are experiencing issues, please make sure you have the latest versions.
 
-### Install External Dependencies
+### Install External Dependencies for nvim config
 
 External Requirements:
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
@@ -21,3 +21,15 @@ External Requirements:
   - If want to write Typescript, you need `npm`
   - If want to write Golang, you will need `go`
   - etc.
+
+### Install the repo 
+
+`echo ".cfg" >> .gitignore`
+
+`git clone --bare <remote-git-repo-url> $HOME/.cfg`
+
+`alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
+
+`config config --local status.showUntrackedFiles no`
+
+`config checkout`
