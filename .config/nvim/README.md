@@ -1,4 +1,4 @@
- Dotfiles (mostly nvim)
+# Dotfiles (mostly nvim)
 
 ## Installation
 
