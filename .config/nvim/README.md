@@ -1,4 +1,4 @@
-# Dotfiles (mostly nvim)
+# Neovim
 
 ## Installation
 
